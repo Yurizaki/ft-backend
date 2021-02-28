@@ -1,4 +1,11 @@
+.gradle
+.vscode
+.classpath
+.settings
 
-build/*
-.gradle/*
-.project
+build
+bin
+gradlex
+
+gradlew
+gradlew.bat
