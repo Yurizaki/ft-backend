@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @RestController
 public class FundController {
     
-    @CrossOrigin(origins = "http://localhost:3000")
+    @CrossOrigin(origins = "*")
     @GetMapping("/fund")
 	public String fund(
         @RequestParam(value = "ticker", defaultValue = "IITU") String ticker) {
