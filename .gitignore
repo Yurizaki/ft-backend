@@ -2,6 +2,7 @@
 .vscode
 .classpath
 .settings
+.env
 
 build
 bin
